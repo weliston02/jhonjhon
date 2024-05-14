@@ -1,0 +1,6 @@
+.js_notification_close.pull-right.notification-close svg{width:12px}
+
+div.cn-div-select .btn-close-select{font-size:40px;color:red;background-color:transparent}div.cn-div-select .btn-plus-option-select{font-size:20px;width:20px;height:20px;border-radius:50px;background-color:#12b37a;color:white;margin-left:20px;margin-bottom:6px}div.cn-div-checkbox{display:flex;flex-direction:row-reverse;justify-content:flex-end;align-items:center}div.cn-div-checkbox label{margin:5px}div.border-composicao{border:1px solid;padding:2px;margin-bottom:3px;border-radius:8px}.cn-loading-icon{-webkit-animation:rotation 1s infinite linear;animation:rotation 1s infinite linear}@-webkit-keyframes rotation{from{-webkit-transform:rotate(0deg)}to{-webkit-transform:rotate(359deg)}}@keyframes rotation{from{-webkit-transform:rotate(0deg)}to{-webkit-transform:rotate(359deg)}}.cn-select.loading{width:100%;display:flex;justify-content:center}
+
+#cn-composicao{min-height:200px;max-height:300px;overflow-y:auto;display:block}#cn-composicao .btn-plus-select{font-size:40px;width:40px;height:40px;border-radius:50px;background-color:#12b37a}#cn-composicao::-webkit-scrollbar{width:5px}#cn-composicao::-webkit-scrollbar-track{background:#f1f1f1}#cn-composicao::-webkit-scrollbar-thumb{background:#888}#cn-composicao::-webkit-scrollbar-thumb:hover{background:#555}
+

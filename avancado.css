@@ -1,0 +1,229 @@
+/* carrinho customizado mobile*/
+@media only screen and (max-width: 767px){
+    #carrinho-mini.hidden-phone{display:block!important;}
+    #carrinho-mini .tabela-carrinho.table-body{display: table!important;}
+    #carrinho-mini .tabela-carrinho.table-body tbody{display: table-row-group!important;}
+    #carrinho-mini .tabela-carrinho.table-body th{display: table-row!important;}
+    #carrinho-mini .tabela-carrinho.table-body td {display:contents!important;}
+    #carrinho-mini .tabela-carrinho.table-body tr {display: table-row!important;}
+    #carrinho-mini .tabela-carrinho.table-body td .excluir {display:none!important;}
+    #carrinho-mini .tabela-carrinho.table-body td .quantidade{display:inline-grid!important;}
+    #carrinho-mini .tabela-carrinho.table-body td.coluna-preco{display:table-cell!important;}
+    #carrinho-mini .tabela-carrinho.table-footer{display: table!important;}
+    #carrinho-mini .tabela-carrinho.table-footer tbody{display: table-row-group!important;}
+    #carrinho-mini .tabela-carrinho.table-footer th{display: table-row!important;}
+    #carrinho-mini .tabela-carrinho.table-footer td {display:table-cell!important;}
+    #carrinho-mini .tabela-carrinho.table-footer tr {display: table-row!important;}
+    #carrinho-mini .tabela-carrinho .input-append .btn, .tabela-carrinho.input-prepend .btn {line-height: 20px;}
+	#carrinho-mini .tabela-carrinho td, .tabela-carrinho th {padding: 0px;}
+    #carrinho-mini .tabela-carrinho .cupom-sucesso {text-align: left;}
+	#carrinho-mini .tabela-carrinho .quantidade a, 
+	#carrinho-mini .tabela-carrinho .excluir a {font-size: 16px;}
+	#carrinho-mini .tabela-carrinho input[type="text"] {font-size: 16px;padding: 4px;}
+    #carrinho-mini .tabela-carrinho .produto-info ul li:nth-child(1) { display:none;}
+    #comprar-ajax-status .sucesso .head { display: none !important;}
+    #carrinho-mini .tabela-carrinho .preco-produto strong.preco-promocional.cor-principal.titulo {font-size: 14px !important;color: #9f9f9f !important;}
+    #carrinho-mini .tabela-carrinho .produto-info {font-size: 12px;}
+    #carrinho-mini .tabela-carrinho.table-body td {width:auto;}
+    #carrinho-mini .tabela-carrinho .possui-cupom {font-size: 12px;}
+    #carrinho-mini .tabela-carrinho .cupom-sucesso .cupom-codigo {font-size: 12px;}
+    #carrinho-mini .tabela-carrinho.table-footer td {width:auto;}
+    #carrinho-mini .tabela-carrinho.table-body td * {vertical-align: top!important;}
+    #carrinho-mini .tabela-carrinho .quantidade, .tabela-carrinho .quantidade input {
+        border: 0;
+        width: auto;
+        margin: 0 auto;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px; 
+        background: inherit;
+    }
+    #carrinho-mini .tabela-carrinho .bg-dark {background-color: inherit!important}
+	
+	#carrinho-mini .tabela-carrinho.table-body td.hidden-phone.coluna-preco { border: 0;}
+	#carrinho-mini .tabela-carrinho.table-body tr { border: 0; }
+	#carrinho-mini .tabela-carrinho.table-body { border: 1px solid  #e6e6e6;}
+	
+	#carrinho-mini .tabela-carrinho.table-body td.hidden-phone.coluna-preco { border: 0;}
+	#carrinho-mini .tabela-carrinho.table-body tr { border: 0; }
+	#carrinho-mini .tabela-carrinho.table-body { border: 1px solid  #e6e6e6;}
+	#carrinho-mini .tabela-carrinho.table-footer td { border: 0;}
+	#carrinho-mini .tabela-carrinho.table-footer tr:first-of-type { border: 1px solid  #e6e6e6; }
+	#carrinho-mini .tabela-carrinho.table-footer tr { border: 0px;}
+}
+
+#comprar-ajax-status a.botao.principal.ir-carrinho.visible-phone {
+    display:none!important;
+    background: #00ae7c;
+}
+
+
+
+#comprar-ajax-status a.botao.principal.ir-carrinho.hidden-phone {
+    display:block!important;
+    background: #00ae7c;
+}
+
+
+/*CONFIGURAÇÃO WHATS COM IMAGEM*/
+@media only screen and (min-width: 768px) {
+  .whatsapp-chat .hide-mobile {
+    display: none;
+  }
+}
+ 
+@media only screen and (max-width: 767px) {
+ 
+  .whatsapp-chat .hide-web {
+    display: none;
+  }
+  .whatsapp-chat img {
+    height: 50px !important;
+    width: 50px !important;
+  }
+  .whatsapp-chat {
+    position: fixed;
+    bottom: 10px !important;
+    right: 10px !important;
+  }
+}
+ 
+.whatsapp-chat {
+  position: fixed;
+  z-index: 999;
+  bottom: 10px;
+  right: 10px;
+}
+ 
+.whatsapp-chat img {
+  height: 50px;
+  width: 50px;
+}
+/*FIM CONFIGURAÇÃO WHATS COM IMAGEM E TITULO*/
+
+
+/* 2 produtos por linha */
+@media (max-width: 768px){#listagemProdutos > ul{display:flex;flex-wrap:wrap;justify-content:center;align-items:flex-start}#listagemProdutos > ul li.listagem-linha ul{display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:center}#listagemProdutos > ul li.listagem-linha ul li{width:50%;margin:0 0 20px}.listagem.com-caixa .listagem-item{border:0;min-height:368px}.listagem.com-caixa .listagem-item .imagem-produto{border:0;padding:0}.listagem .listagem-item .info-produto{border:none!important;padding:5px 0}.listagem .listagem-item .info-produto a.nome-produto{min-height:90px;display:flex;align-items:center}.busca .botao-busca{padding:5px 14px!important}.listagem .listagem-item .acoes-produto-responsiva,#btn-top{display:none!important}}
+
+
+/* Centralizar os itens do menu */
+#cabecalho > .conteiner > .menu.superior { text-align: center; }
+#cabecalho > .conteiner > .menu.superior .nivel-um > li { float: none; display: inline-block; border-left: 0; margin-right: -3px; }
+
+
+/* Remover da lista de desejos */
+a.adic-favo{
+display: none !important;
+}
+
+
+/*remover campo cnpj*/
+#tipoCadastro > li:nth-child(2) {
+
+display: none;
+
+}
+
+
+/*remover telefone fixo*/
+#userExtraInfo > div.row-fluid.campos-bot > div:nth-child(2) {
+
+display: none;
+
+}
+
+/* Acerto Carrinho centralizado */ 
+.fancybox-inner {
+    height: auto!important;
+}
+
+/* Acerto Botão comrpar Carrinho */
+.finalizar-compra .botao.principal {
+  width: 100%!important;
+  margin-top: 5px!important;
+}
+
+.acao-editar .selo-ssl img {
+    margin-left: 0;
+    width: auto;
+    height: auto;
+    margin-top: 100px!important;
+}
+
+/* Acerto Botão Finalizar Compra */
+#finalizarCompra {
+  background: #55af59;
+  width: 100%;
+}
+
+/* Acerto Nome Categoria Grande */ 
+.full.menu.hidden-phone li.categoria-id-4610493.borda-principal a strong, 
+.full.menu.hidden-phone li.categoria-id-16819015.borda-principal a strong, 
+.full.menu.hidden-phone li.categoria-id-17476593.borda-principal a strong, 
+.full.menu.hidden-phone li.categoria-id-1198471.borda-principal a strong {
+    line-height: 20px;
+}
+
+/* Ajustes Menu Cabelalho */
+
+@media only screen and (max-width: 767px){
+	.conteudo-topo .menu.superior.visible-phone ul.nivel-um {
+		height: auto;
+		overflow: scroll;
+		max-height: calc(100vh - 160px);
+	}
+}
+
+#cabecalho.fixed .full.menu.active {
+    max-height: max-content;
+}
+
+/* Remover Botão Compartilhar */
+
+.produto-compartilhar .fb-compartilhar {
+    display: none!important;
+}
+
+.produto-compartilhar {
+    display: none!important;
+}
+
+/* Ajustes Vídeos Youtube */
+
+.produto-video i {
+    font-size: 40px!important;
+    color: #c4302b!important;
+}
+
+.produto-video p {
+    margin: 0!important;
+    font-size: 16px!important;
+}
+
+.produto-video span {
+    color: #c4302b!important;
+}
+
+
+/* Acertos Página Produto  */
+
+.acoes-produto .preco-produto, .produto-compartilhar {
+    float: none;
+    padding: 0 0 0px!important;
+    margin: 0 0 0px!important;
+}
+
+.produto .codigo-produto {
+    margin-bottom: 0px!important;
+}
+
+.produto .principal > div {
+    margin: 0 0 0px!important;
+}
+
+
+/* acerto botão voltar ao topo */
+
+.scrollToTop {
+    bottom: 20px!important;
+}
